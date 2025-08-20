@@ -10,7 +10,7 @@ const testimonials = [
     location: "Jakarta",
     rating: 5,
     comment: "Makaroni Balado-nya enak banget! Pedasnya pas dan rasanya autentik. Sudah langganan 6 bulan!",
-    avatar: "/diverse-woman-smiling.png",
+    avatar: "/placeholder-user.jpg",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const testimonials = [
     location: "Bandung",
     rating: 5,
     comment: "Packaging rapi, rasa konsisten, dan pelayanan ramah. Makaroni Rendang favorit keluarga!",
-    avatar: "/smiling-man.png",
+    avatar: "/placeholder-user.jpg",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const testimonials = [
     location: "Surabaya",
     rating: 5,
     comment: "Varian rasanya banyak dan semuanya enak. Makaroni Sambal Matah jadi andalan buat acara keluarga.",
-    avatar: "/happy-woman.png",
+    avatar: "/placeholder-user.jpg",
   },
 ]
 

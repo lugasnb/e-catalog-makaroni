@@ -7,19 +7,19 @@ import { Card } from "@/components/ui/card"
 const galleryImages = [
   {
     id: 1,
-    src: "/macaroni-cooking.png",
+    src: "/placeholder-mk7xr.png",
     alt: "Proses memasak makaroni",
     title: "Proses Memasak",
   },
   {
     id: 2,
-    src: "/fresh-ingredients-spices.png",
+    src: "/placeholder-mk7xr.png",
     alt: "Bahan-bahan segar",
     title: "Bahan Berkualitas",
   },
   {
     id: 3,
-    src: "/macaroni-packaging-delivery.png",
+    src: "/placeholder-mk7xr.png",
     alt: "Proses packaging",
     title: "Packaging Higienis",
   },
@@ -31,13 +31,13 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: "/colorful-macaroni.png",
+    src: "/placeholder-mk7xr.png",
     alt: "Variasi makaroni",
     title: "Beragam Varian",
   },
   {
     id: 6,
-    src: "/clean-kitchen-food-prep.png",
+    src: "/placeholder-mk7xr.png",
     alt: "Dapur bersih",
     title: "Dapur Bersih",
   },
