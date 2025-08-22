@@ -7,7 +7,10 @@ export default function AboutSection() {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl lg:text-4xl font-serif font-bold text-gray-900 mb-6">Tentang Kami</h3>
           <p className="text-gray-600 text-lg leading-relaxed mb-12 font-medium">
-            Makaroni Sangar Rasa Chili Oil dan Jagung adalah camilan gurih pedas yang memadukan renyahnya makaroni dengan sensasi khas minyak cabai (chili oil) serta manis gurih dari jagung. Perpaduan rasa pedas, asin, dan sedikit manis menjadikannya camilan unik yang cocok dinikmati kapan saja, baik untuk teman santai maupun oleh-oleh kekinian.
+            Makaroni Sangar Rasa Chili Oil dan Jagung adalah camilan gurih pedas yang memadukan renyahnya 
+            makaroni dengan sensasi khas minyak cabai (Chili Oil) serta manis gurih dari jagung. Perpaduan rasa 
+            pedas, asin, dan sedikit manis menjadikannya camilan unik yang cocok dinikmati kapan saja, baik untuk 
+            teman santai maupun oleh-oleh kekinian.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">

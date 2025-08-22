@@ -40,14 +40,14 @@ export default function Footer() {
                 <div className="bg-gradient-to-br from-blue-500 to-cyan-500 w-8 h-8 rounded-lg flex items-center justify-center">
                   <Mail className="h-4 w-4 text-white" />
                 </div>
-                <span className="font-medium">makaronisangar@gmail.com</span>
+                <span className="font-medium">@gmail.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-8 h-8 rounded-lg flex items-center justify-center">
                   <MapPin className="h-4 w-4 text-white" />
                 </div>
                 <span className="font-medium">
-                  Karangampel Kidul, Kecamatan Karangampel, Kabupaten Indramayu, Jawa Barat 45283
+                  Karangampel Kidul, Indramayu
                 </span>
               </div>
             </div>
