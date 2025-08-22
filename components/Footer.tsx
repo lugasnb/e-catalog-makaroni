@@ -17,7 +17,7 @@ export default function Footer() {
               <h4 className="font-serif font-bold text-xl">Makaroni Sangar</h4>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4 font-medium">
-              Kelezatan makaroni berpadu dengan rasa nusantara, hadir dari bahan premium dan racikan bumbu pilihan.
+              Kelezatan makaroni berpadu dengan rasa yang gurih, hadir dari bahan premium dan racikan bumbu pilihan.
             </p>
             <Button
               onClick={sendGeneralWhatsAppMessage}
@@ -46,7 +46,7 @@ export default function Footer() {
                 <div className="bg-gradient-to-br from-green-500 to-emerald-500 w-8 h-8 rounded-lg flex items-center justify-center">
                   <MapPin className="h-4 w-4 text-white" />
                 </div>
-                <span className="font-small">
+                <span className="font-medium">
                   Karangampel Kidul, Kecamatan Karangampel, Kabupaten Indramayu, Jawa Barat 45283
                 </span>
               </div>

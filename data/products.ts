@@ -21,7 +21,7 @@ export const makaroniProducts: Product[] = [
     name: "Makaroni Chili Oil",
     price: "Rp 18.000",
     description: "Camilan renyah dengan sensasi pedas gurih yang meledak di mulut",
-    image: "/placeholder-mk7xr.png",
+    image: "/mangar.png",
     rating: 4.9,
     isPopular: true,
     spiceLevel: "Pedas",

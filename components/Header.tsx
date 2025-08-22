@@ -21,13 +21,13 @@ export default function Header() {
             </div>
           </div>
 
-          <Button
+          {/* <Button
             onClick={sendGeneralWhatsAppMessage}
             className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 font-medium"
           >
             <MessageCircle className="mr-2 h-4 w-4" />
             Chat WhatsApp
-          </Button>
+          </Button> */}
         </div>
       </div>
       <div className="absolute inset-0 opacity-30">
