@@ -23,12 +23,12 @@ export default function ProductCard({ product, onDetailClick }: ProductCardProps
           className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        {product.isPopular && (
-          <Badge className="absolute top-4 left-4 bg-gradient-to-r from-yellow-400 to-orange-400 text-white border-0 shadow-lg font-semibold">
-            <Star className="mr-1 h-3 w-3 fill-current" />
-            Populer
-          </Badge>
-        )}
+        {/* {product.isPopular && (
+          // <Badge className="absolute top-4 left-4 bg-gradient-to-r from-yellow-400 to-orange-400 text-white border-0 shadow-lg font-semibold">
+          //   <Star className="mr-1 h-3 w-3 fill-current" />
+          //   Populer
+          // </Badge>
+        )} */}
         <Badge
           className={`absolute top-4 right-4 ${getSpiceLevelColor(product.spiceLevel)} border-0 shadow-md font-medium`}
           variant="secondary"
@@ -49,10 +49,10 @@ export default function ProductCard({ product, onDetailClick }: ProductCardProps
           <CardTitle className="text-xl font-serif font-bold text-gray-900 group-hover:text-orange-600 transition-colors">
             {product.name}
           </CardTitle>
-          <div className="flex items-center gap-1 bg-yellow-50 px-2 py-1 rounded-full">
+          {/* <div className="flex items-center gap-1 bg-yellow-50 px-2 py-1 rounded-full">
             <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
             <span className="text-sm font-semibold text-yellow-700">{product.rating}</span>
-          </div>
+          </div> */}
         </div>
         <CardDescription className="text-gray-600 leading-relaxed font-medium">{product.description}</CardDescription>
       </CardHeader>
