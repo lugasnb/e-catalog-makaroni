@@ -17,8 +17,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Makaroni Nusantara - E-Katalog UMKM",
-  description: "Katalog online makaroni dengan beragam rasa khas Indonesia",
+  title: "Makaroni Sangar - E-Catalog UMKM",
+  description: "Katalog online makaroni dengan beragam rasa",
   generator: "v0.app",
 }
 
