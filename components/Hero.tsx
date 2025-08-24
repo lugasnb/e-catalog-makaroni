@@ -7,16 +7,16 @@ import { useState } from "react"
 
 export default function Hero() {
   const [isEditing, setIsEditing] = useState(false)
-  const [blackText, setBlackText] = useState("Pedas Gurihnya Langsung Nendang di Lidah")
-  const [orangeText, setOrangeText] = useState("")
+  const [blackText, setBlackText] = useState("")
+  const [orangeText, setOrangeText] = useState("Ngemil Asik, Renyah Klasik")
 
   const handleSave = () => {
     setIsEditing(false)
   }
 
   const handleCancel = () => {
-    setBlackText("Pedas Gurihnya Langsung Nendang di Lidah")
-    setOrangeText("")
+    setBlackText("")
+    setOrangeText("Ngemil Asik, Renyah Klasik")
     setIsEditing(false)
   }
 
@@ -87,7 +87,7 @@ export default function Hero() {
 
           {/* Existing code */}
           <p className="text-lg lg:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
-            Kelezatan makaroni berpadu dengan rasa yang gurih, hadir dari bahan premium dan racikan bumbu pilihan.
+            Kerenyahan klasik  rasa unik yang bikin momen tambah menarik. "SANZ SNACK MAKARONI" hadir dengan rasa enak, nagih, dan asik setiap saat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

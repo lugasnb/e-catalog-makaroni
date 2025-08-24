@@ -19,9 +19,9 @@ export default function Header() {
             </div>
             <div>
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                Makaroni Sangar
+                SANZ SNACK MAKARONI
               </h1>
-              <p className="text-gray-600 text-sm font-medium">Pedasnya Bikin Gahar</p>
+              <p className="text-gray-600 text-sm font-medium">Ngemil Asik, Renyah Klasik</p>
             </div>
           </div>
 

@@ -18,10 +18,10 @@ export default function Footer() {
                   // className="h-6 w-6 object-contain" 
                 />
               </div>
-              <h4 className="font-serif font-bold text-xl">Makaroni Sangar</h4>
+              <h4 className="font-serif font-bold text-xl">SANZ SNACK MAKARONI</h4>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4 font-medium">
-              Kelezatan makaroni berpadu dengan rasa yang gurih, hadir dari bahan premium dan racikan bumbu pilihan.
+              Ngemil Asik, Renyah Klasik
             </p>
             <Button
               onClick={sendGeneralWhatsAppMessage}
