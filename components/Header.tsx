@@ -10,8 +10,12 @@ export default function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           <div className="flex items-center gap-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
-              <Sparkles className="text-white h-6 w-6" />
+            <div className="w-15 h-15 rounded-xl flex items-center justify-center">
+              <img 
+                src="/kkm-logo.png" 
+                alt="Logo" 
+                // className="h-6 w-6 object-contain" 
+              />
             </div>
             <div>
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
