@@ -13,12 +13,12 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-xl flex items-center justify-center">
                 <img 
-                  src="/kkm-logo.png" 
+                  src="/sanz-logo.png" 
                   alt="Logo" 
                   // className="h-6 w-6 object-contain" 
                 />
               </div>
-              <h4 className="font-serif font-bold text-xl">SANZ SNACK MAKARONI</h4>
+              <h4 className="font-serif font-bold text-xl">SANZ SNACK INDONESIA</h4>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4 font-medium">
               Ngemil Asik, Renyah Klasik
@@ -64,7 +64,7 @@ export default function Footer() {
                   <Clock className="h-4 w-4 text-white" />
                 </div>
                 <div>
-                  <p className="font-medium">Senin - Sabtu: 10:00 - 17:00</p>
+                  <p className="font-medium">Senin - Sabtu: 08:00 - 16:00</p>
                   <p className="text-orange-300 font-medium">Delivery tersedia setiap hari</p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p className="font-medium">&copy; 2025 Makaroni Sangar. Semua hak cipta dilindungi.</p>
+          <p className="font-medium">&copy; 2025 Sanz Snack Indonesia. Semua hak cipta dilindungi.</p>
         </div>
       </div>
     </footer>

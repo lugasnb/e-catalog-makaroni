@@ -12,14 +12,14 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <div className="w-15 h-15 rounded-xl flex items-center justify-center">
               <img 
-                src="/kkm-logo.png" 
+                src="/sanz-logo.png" 
                 alt="Logo" 
                 // className="h-6 w-6 object-contain" 
               />
             </div>
             <div>
               <h1 className="text-2xl lg:text-3xl font-serif font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                SANZ SNACK MAKARONI
+                SANZ SNACK INDONESIA
               </h1>
               <p className="text-gray-600 text-sm font-medium">Ngemil Asik, Renyah Klasik</p>
             </div>

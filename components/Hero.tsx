@@ -73,7 +73,7 @@ export default function Hero() {
               )}
             </h2>
 
-            {!isEditing && (
+            {/* {!isEditing && (
               <Button
                 onClick={() => setIsEditing(true)}
                 size="sm"
@@ -82,7 +82,7 @@ export default function Hero() {
               >
                 <Edit3 className="w-4 h-4" />
               </Button>
-            )}
+            )} */}
           </div>
 
           {/* Existing code */}

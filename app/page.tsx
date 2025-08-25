@@ -9,7 +9,6 @@ import ProductCard from "@/components/ProductCard"
 import ProductModal from "@/components/ProductModal"
 import AboutSection from "@/components/AboutSection"
 import GallerySection from "@/components/GallerySection"
-import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
 export default function HomePage() {
@@ -52,7 +51,6 @@ export default function HomePage() {
 
       <GallerySection />
       <AboutSection />
-      <FAQSection />
       <Footer />
     </div>
   )
